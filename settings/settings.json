@@ -75,12 +75,14 @@
         },
         "BetterFolders": {
             "enabled": true,
-            "sidebar": true,
+            "sidebar": false,
             "sidebarAnim": true,
             "closeAllFolders": false,
             "closeAllHomeButton": false,
             "closeOthers": false,
-            "forceOpen": false
+            "forceOpen": false,
+            "showFolderIcon": 1,
+            "keepIcons": false
         },
         "BetterGifAltText": {
             "enabled": false
@@ -212,7 +214,7 @@
             "enabled": false
         },
         "MemberCount": {
-            "enabled": true
+            "enabled": false
         },
         "MessageClickActions": {
             "enabled": true,
@@ -499,6 +501,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1698349587901
+        "settingsSyncVersion": 1698757596773
     }
 }
